@@ -22,4 +22,4 @@ import matplotlib.pyplot as plt
 plt.xlabel('Epoch Number')
 plt.ylabel("Loss Magnitude")
 plt.plot(history.history['loss'])
-print(model.predict([100]))
+print(model.predict([101]))
