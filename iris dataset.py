@@ -9,5 +9,5 @@ Created on Tue Feb 25 19:57:59 2020
 """
 
 from sklearn.datasets import load_iris
-iris=load_iris()
+iriss=load_iris()
 print(iris.feature_names)
