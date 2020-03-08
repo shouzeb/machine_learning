@@ -20,7 +20,7 @@ def slide(row):
             return filtered_numbers
 def combine(row):
     for i in reversed(range(len(row))): 
-        a=row[i] 
+        a=row[i]
         b=row[i-1] 
         if a == b:
             row[i]=a+b 
