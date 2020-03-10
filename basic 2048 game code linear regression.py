@@ -111,9 +111,13 @@ def up(k,pickindex):
   return s
 def down(k,pickindex):
   #print "D"
+  
   k =rotatedGrid(k)
+  print("after 1st rotate ",display1(k))
   k=rotatedGrid(k)
+  print("after 2st rotate ",display1(k))
   k=rotatedGrid(k)
+  print("after 3st rotate ",display1(k))
   k=loop_over(k,pickindex)
   k =rotatedGrid(k)
   s = addNumber(k,pickindex)
@@ -152,6 +156,9 @@ x[3][3]=2
 x[2][1]=4
 #x[0][0]=2
 display1(x)
+#print("after down")
+#display1(down(x,0))
+
 while(gameover(x,16)==0):
     
  move=input("enter move: ")
