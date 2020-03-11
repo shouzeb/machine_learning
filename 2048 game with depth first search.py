@@ -162,7 +162,7 @@ def bfs(grid,o,pickindex):
             pickindex=0
         g=copy.deepcopy(frontier[length-1])
         #print (g) # you can see this value to make sure what is currently being executed
-        frontier.pop(0)
+        frontier.pop(length-1)
         #print g
         if g[0] == None:
             break
