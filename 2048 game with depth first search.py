@@ -149,7 +149,7 @@ def display1(grid):
 
 pickvalue=[2]
 
-def bfs(grid,o,pickindex):
+def dfs(grid,o,pickindex):
     frontier =[]
     g_v =[grid,[]]
     frontier.append(g_v)
@@ -208,6 +208,6 @@ x = [[0 for i in range(width)] for j in range(height)]
 x[3][0]=2
 x[3][3]=4
 print (x)
-g=bfs(x,16,0)
+g=dfs(x,16,0)
 display1(g[0])
 print (g[1])
