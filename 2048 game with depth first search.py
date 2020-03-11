@@ -160,7 +160,6 @@ def bfs(grid,o,pickindex):
         length=len(frontier)
         if pickindex >= len(pickvalue):
             pickindex=0
-            
         g=copy.deepcopy(frontier[length-1])
         #print (g) # you can see this value to make sure what is currently being executed
         frontier.pop(0)
