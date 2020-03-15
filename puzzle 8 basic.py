@@ -1,9 +1,4 @@
-__author__ = 'Burak Tekin'
-__date__ = '19/12/2013'
-__contact_ = 'iletisim@buraktekin.net / tknbrk@gmail.com'
-__course__ = 'Artificial Intelligence and Symbolic Programming - COMP431'
-__instructor__ = 'MSc. Elena Battini Sonmez'
-__Project_Name__ = '8-Puzzle Solver'
+
 
 __Project_Description__ = '''
 This is a python based 3x3 puzzle solver which solves the problem by using list
