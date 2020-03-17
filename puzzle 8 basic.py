@@ -1,5 +1,4 @@
 
-
 __Project_Description__ = '''
 This is a python based 3x3 puzzle solver which solves the problem by using list
 which represented as 1 dimensionally. (Using 1D list is the greatest challenge for me.)
