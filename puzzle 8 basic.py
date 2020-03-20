@@ -234,6 +234,10 @@ def best_first_search(state):
     step = 0
     while goal_state:
         step += 1
+        
+        
+        
+        
 
         # Comment outs are for checking results to compare them individually.
         # print "TEMP SOLUTION SET: ", temp_solution
