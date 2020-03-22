@@ -11,6 +11,8 @@ Project has several methods to solve subproblems. The subproblems are:
     * Generate a heuristic function to get closest path to go to goal state.
     * Breadth First Search and Generating the Result.'''
 
+
+
 import math, sys
 
 #********************************#
